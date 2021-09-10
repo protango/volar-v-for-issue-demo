@@ -12,6 +12,7 @@
 
 <template>
   <MyComponent v-for="obj in objects" :key="obj.publicField" :test-prop="obj" />
+  <!--                                                        ^^^ This will error -->
 </template>
 
 
